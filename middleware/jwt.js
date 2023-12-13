@@ -46,7 +46,7 @@ const verifyToken = () => async (req, res, next) => {
         );
         next();
       } catch (error) {
-        res.status(498).send({status:498, message: "Error Token, Gnerar Uno Nuevo"});
+        res.status(498).send({status:498, message: "Error Token, Generar Uno Nuevo"});
       }
    
   };
